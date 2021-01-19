@@ -1,8 +1,6 @@
-const { json } = require('express');
 const express = require('express');
 const session = require("express-session");
 const fs = require("fs");
-const { nextTick } = require('process');
 const router = express.Router();
 let usersData = require('../usersData.json');
 
