@@ -1,0 +1,17 @@
+[
+  {
+    "username": "mayurs@prdxn.com",
+    "password": "mainahibatata",
+    "hobbies": ["nothing", "nothing"]
+  },
+  {
+    "username": "vishalg@prdxn.com",
+    "password": "guptavishal",
+    "hobbies": ["node", "express", "mongoDB"]
+  },
+  {
+    "username": "tejeshs@prdxn.com",
+    "password": "shindetejesh",
+    "hobbies": ["express", "node"]
+  }
+]
