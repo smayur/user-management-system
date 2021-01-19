@@ -1,10 +1,15 @@
 const express = require('express');
-const router = express.Router()
+let usersData = require('./usersData.json');
 
 const app = express();
 
+app.use(express.json());
+app.use(express.urlencoded( {extended: false} ));
+app.use('/api/users', require('./api/users'));
+
+
 app.get('/', (req, res) =>{
-  console.log('Hi mayur, success is ahead!!!');
+  console.log(usersData);
 });
 
 app.listen('5000', () => {
